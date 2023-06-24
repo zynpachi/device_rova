@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 $(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Inherit some common Carbon stuff.
-$(call inherit-product, vendor/carbon/config/common.mk
+$(call inherit-product, vendor/carbon/config/common.mk)
 
 # Inherit from rova device
 $(call inherit-product, device/xiaomi/rova/device.mk)
